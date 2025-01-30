@@ -1,0 +1,23 @@
+header{
+    padding: 20px 40px;
+    border: 2px solid #7777 ;
+
+}
+
+header .logo{
+    width: 100px;
+}
+
+header nav{
+    display: inline-block;
+    float: right;
+    padding-top: 45px;
+   
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+

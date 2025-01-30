@@ -1,0 +1,18 @@
+main{
+    width: 90%;
+    background-color: rgb(216, 235, 251);
+    margin: 0 auto;
+}
+.container-a{
+    width: 45%;
+    background-color: rgb(51, 214, 214);
+    border: 2px solid rgb(6, 6, 58);
+    display: inline-block;
+
+}
+.container-b{
+    width: 45%;
+    background-color: rgb(15, 134, 94);
+    border: 2px solid rgb(6, 6, 58);
+    display: inline-block;
+}

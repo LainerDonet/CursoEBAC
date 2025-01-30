@@ -1,0 +1,28 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article{
+    background-color: #81f7ff;
+}
+
+p, h1, span, section{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn-main, .title, .main, .subtitle{
+    color: #fff;
+    background-color: darkolivegreen;
+}
+
+article .text{
+    font-size: 10px;
+}
