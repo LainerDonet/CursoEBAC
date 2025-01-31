@@ -10,16 +10,16 @@
     <header>
         <img src="img/48727.jpg" alt="Interestelar-poster">
         <nav>
-            <span class="btn-primario"><a href="">Información Sinopsis</a></span>
-            <span class="btn-primario"><a href="">Trailer</a></span>
-            <span class="btn-primario"><a href="">Reparto</a></span>
-            <span class="btn-primario"><a href="">Premios y nominaciones</a></span>
-            <span class="btn-primario"><a href="">Enlaces externos</a></span>
+            <span class="btn-primario"><a href="#Infomación">Información Sinopsis</a></span>
+            <span class="btn-primario"><a href="#art-trailer">Trailer</a></span>
+            <span class="btn-primario"><a href="#reparto">Reparto</a></span>
+            <span class="btn-primario"><a href="#premios">Premios y nominaciones</a></span>
+            <span class="btn-primario"><a href="#Enlaces">Enlaces externos</a></span>
         </nav>
     </header>
     <hr>
     <main>
-        <article>
+        <article class="Información" id="Información">
             <h1 class="title">Información sobre Interestelar</h1>
             <p>
                 Interstellar (conocida como Interestelar en Hispanoamérica) es una película épica de drama y ciencia ficción británico-estadounidense y canadiense de 2014, dirigida por Christopher Nolan y protagonizada por Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine y Matt Damon. Ambientada en un futuro distópico donde la humanidad está luchando por sobrevivir, ya que la Tierra se está volviendo inhabitable por el polvo que está arrasando con todo, cuenta la historia de un grupo de astronautas que viajan a través de un agujero de gusano cerca de Saturno en busca de un nuevo hogar para la humanidad.
@@ -36,53 +36,56 @@
             </p>
 
         </article>
-        <article class="art-trailer">
+        <article class="art-trailer" id="art-trailer">
             <h1 class="title">Trailer</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/LYS2O1nl9iM?si=CtcAq2ZVn2L_SZEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p>INTERESTELAR - Tráiler 4 Doblado HD - Oficial Warner Bros. Pictures</p>
             
         </article>
-        <article>
+        <article class="reparto" id="reparto">
             <h1 class="title">Reparto</h1>
-            <div class="card-reparto">
-                <img src="img/Matthew.webp" alt="Matthew McConaughey">
-                <h3>Matthew McConaughey</h3>
-                <h4>Joseph Cooper</h4>
+            <div class="reparto">
+                <div class="card-reparto">
+                    <img src="img/Matthew.webp" alt="Matthew McConaughey">
+                    <h3>Matthew McConaughey</h3>
+                    <h4>Joseph Cooper</h4>
+                </div>
+                <div class="card-reparto">
+                    <img src="img/Jessica.webp" alt="Jessica Chastain">
+                    <h3>Jessica Chastain</h3>
+                    <h4>Murph</h4>
+                </div>
+                <div class="card-reparto">
+                    <img src="img/Anne.webp" alt="Anne Hathaway">
+                    <h3>Anne Hathaway</h3>
+                    <h4>Amelia Brand</h4>
+                </div>
+                <div class="card-reparto">
+                    <img src="img/Timothée.webp" alt="Timothée Chalamet">
+                    <h3>Timothée Chalamet</h3>
+                    <h4>Tom</h4>
+                </div>
+                <div class="card-reparto">
+                    <img src="img/Mackenzie.webp" alt="Mackenzie Foy">
+                    <h3>Mackenzie Foy</h3>
+                    <h4>Murph</h4>
+                </div>
+                <div class="card-reparto">
+                    <img src="img/Matt.jpg" alt="Matt Demon">
+                    <h3>Matt Demon</h3>
+                    <h4>Dr. Mann</h4>
+                </div>
+                <div class="card-reparto">
+                    <img src="img/Michael.webp" alt="Michael Caine">
+                    <h3>Michael Caine</h3>
+                    <h4>Profesor Brand</h4>
+                </div>
             </div>
-            <div class="card-reparto">
-                <img src="img/Jessica.webp" alt="Jessica Chastain">
-                <h3>Jessica Chastain</h3>
-                <h4>Murph</h4>
-            </div>
-            <div class="card-reparto">
-                <img src="img/Anne.webp" alt="Anne Hathaway">
-                <h3>Anne Hathaway</h3>
-                <h4>Amelia Brand</h4>
-            </div>
-            <div class="card-reparto">
-                <img src="img/Timothée.webp" alt="Timothée Chalamet">
-                <h3>Timothée Chalamet</h3>
-                <h4>Tom</h4>
-            </div>
-            <div class="card-reparto">
-                <img src="img/Mackenzie.webp" alt="Mackenzie Foy">
-                <h3>Mackenzie Foy</h3>
-                <h4>Murph</h4>
-            </div>
-            <div class="card-reparto">
-                <img src="img/Matt.jpg" alt="Matt Demon">
-                <h3>Matt Demon</h3>
-                <h4>Dr. Mann</h4>
-            </div>
-            <div class="card-reparto">
-                <img src="img/Michael.webp" alt="Michael Caine">
-                <h3>Michael Caine</h3>
-                <h4>Profesor Brand</h4>
-            </div>
+            
         </article>
-        <article>
+        <article class="premios" id="premios">
             <h1 class="title">Premios y nominaciones</h1>
-            <table border=".5">
+            <table id="tabla" border=".5">
                 <thead>
                 <tr>
                     <th>Premios</th>
@@ -204,7 +207,7 @@
                 </tbody>
             </table>
         </article>
-        <article>
+        <article id="Enlaces">
             <h1 class="title">Enlances Externos</h1>
             <ul>
                 <li><i>Interstellar</i>: en <a href="https://es.wikipedia.org/wiki/Internet_Movie_Database">Internet Movie Database</a></li>
@@ -217,7 +220,7 @@
     </main>
     <hr>
     <footer>
-        
+        <small> <i>Practica número 4 de CSS &copy;</i></small>
     </footer>
 </body>
 </html>

@@ -64,4 +64,52 @@ p{
 }
 .card-reparto{
     display: inline-block;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 20px;
+    background-image: linear-gradient(to right, #007bff, #4ab2e2);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5 ease-in;
+}
+.card-reparto img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-reparto:active{
+    background-image: linear-gradient(to right, #b83b01, #4ab2e2);
+}
+.card-reparto h4:active{
+    color: #000;
+}
+
+.reparto div:first-child{
+    background-image: linear-gradient(to right, #b83b01, #4ab2e2);
+}
+
+.reparto div:nth-child(1) h4{
+    color: #000;
+}
+
+#tabla{
+    margin-left: 20%;
+}
+
+ul{
+   margin: 10px 40px;
+}
+ul li:last-child{
+    font-size: large;
+    color: #007bff;
+}
+ul li:visited{
+    color: gray;
+}
+footer{
+    text-align: center;
+    padding: 10px;
 }
