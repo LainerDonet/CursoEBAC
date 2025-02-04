@@ -13,4 +13,5 @@
     padding: 10px;
     box-sizing: border-box;
     flex-basis: calc(33.33% - 20px);
+    text-align: center;
 }
