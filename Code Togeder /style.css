@@ -162,7 +162,7 @@ body{
       font-size: 18px;
    }
    .banner p{
-      font-size: 16px;
+      font-size: 1rem;
    }
    .products{
       grid-template-columns: 1fr;
