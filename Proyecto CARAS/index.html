@@ -5,16 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-
+        <img src="img/Logo 1.png" alt="logo">
+        <h1>Suscríbete a nuestro Newsletter</h1>
+        <h2>Recibe las últimas noticias y actualizaciones directamente en tu bandeja de entrada</h2>
     </header>
     <main>
-        
+        <section class="newsletter">
+            <h1>Suscríbete a nuestro Newsletter</h1>
+            <h2>Recibe las últimas noticias y actualizaciones directamente en tu bandeja de entrada</h2>
+            <form class="subscription-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Suscribirse</button>
+            </form>
+        </section>
+        <section class="featured">
+            <h2>Beneficios de Suscribirse</h2>
+            <div class="benefits">
+                <div class="benefit">
+                    <img src="img/benefit1.png" alt="Benefit 1">
+                    <p>Recibe noticias exclusivas y actualizaciones antes que nadie.</p>
+                </div>
+                <div class="benefit">
+                    <img src="img/benefit2.png" alt="Benefit 2">
+                    <p>Accede a contenido premium y ofertas especiales.</p>
+                </div>
+                <div class="benefit">
+                    <img src="img/benefit3.png" alt="Benefit 3">
+                    <p>Participa en sorteos y concursos exclusivos para suscriptores.</p>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>Testimonios de Suscriptores</h2>
+            <div class="testimonial-list">
+                <div class="testimonial">
+                    <img src="img/avatar1.png" alt="Avatar 1">
+                    <p>"Este newsletter es increíble. Siempre recibo las noticias más recientes y las ofertas más exclusivas."</p>
+                    <h3>- Juan Pérez</h3>
+                </div>
+                <div class="testimonial">
+                    <img src="img/avatar3.png" alt="Avatar 2">
+                    <p>"Me encanta recibir contenido premium y participar en los sorteos. ¡Muy recomendado!"</p>
+                    <h3>- María López</h3>
+                </div>
+                <div class="testimonial">
+                    <img src="img/avatar2.png" alt="Avatar 3">
+                    <p>"Las actualizaciones son siempre puntuales y muy útiles. No puedo esperar a ver qué más ofrecen."</p>
+                    <h3>- Carlos García</h3>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+            <div class="contact-info">
+                <p>Contacto: info@caras.com</p>
+                <p>Teléfono: +123 456 7890</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Términos y Condiciones</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
