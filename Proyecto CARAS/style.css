@@ -1,41 +1,49 @@
 /* Importar fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Estilos generales */
 body {
     font-family: 'Playfair Display', serif;
     color: #333;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to right, #00008B, #ADD8E6, #00008B);
+    position: absolute;
+    width: 100%;
 }
 
 header {
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ED1E1E; /* Rojo oficial de CARAS */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
 }
 
 header img {
+    display: inline-block;
     width: 150px;
-    margin-bottom: 10px;
+    margin:10px 20px;
 }
 
-header h1 {
+header div {
     font-family: 'Playfair Display', serif;
+    font-size: clamp(0.5rem, 0.143rem + 0.952vw, 1rem);
     font-weight: bold;
-    color: #110b0b; 
+    color:#fff; 
+    margin: 10px 20px;
 }
 
-header h2 {
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    color: #ED1E1E; /* Rojo oficial de CARAS */
-}
+
 
 main {
     padding: 20px;
+    margin-top: 80px;
+    
 }
 
 .newsletter, .featured, .testimonials {
@@ -44,8 +52,7 @@ main {
 
 .newsletter h1, .newsletter h2, .featured h2, .testimonials h2 {
     text-align: center;
-    margin-bottom: 20px;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
     color: #ED1E1E; /* Rojo oficial de CARAS */
 }
