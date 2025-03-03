@@ -1,0 +1,36 @@
+
+
+.footer{
+    background-color: #537756;
+    .footer__information{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .footer__information__title{
+            color: #fff;
+            text-align: center;
+            .footer__title{
+                margin: 0;
+            }
+            .footer__information__p{
+                margin: 0;
+            }
+        }
+        .logo{
+                display: inline-block;
+                width: 100px;
+                padding: 20px;
+        }
+        .footer__information__list {
+            padding: 20px;
+            li{
+                display: inline;
+                margin-right: 10px;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
