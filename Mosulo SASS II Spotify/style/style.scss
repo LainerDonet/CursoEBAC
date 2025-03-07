@@ -7,4 +7,109 @@ body{
     "footer footer footer";
     margin: 0;
     padding: 0;
+    .leftsection{
+        display: flex;
+        flex-direction: column;
+        grid-area: leftsection;
+        background-color: #1DB954;
+        &__homesearch{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+        }
+        &__title{
+            font-size: 1rem;
+            font-weight: bold;
+            font-style: normal;
+            color: white;
+            justify-content: center;
+        }
+        &__icon{
+            width: 50px;
+        }
+        .musiclibrary{
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            &__icon{
+                width: 50px;
+            }
+            &__title{
+                font-size: 1rem;
+                font-weight: bold;
+                font-style: normal;
+                color: white;
+                justify-content: center;
+            }
+        }
+        .staticselect{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            &__title{
+                font-size: 1rem;
+                font-weight: bold;
+                font-style: normal;
+                color: white;
+                justify-content: center;
+            }
+            &__icon{
+                width: 50px;
+            }
+        }
+        .artistlist{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            &__title{
+                font-size: 1rem;
+                font-weight: bold;
+                font-style: normal;
+                color: white;
+                justify-content: center;
+            }
+            &__icon{
+                width: 50px;
+            }
+        }
+        .trueartist{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            &__title{
+                font-size: 1rem;
+                font-weight: bold;
+                font-style: normal;
+                color: white;
+                justify-content: center;
+            }
+            &__icon{
+                width: 50px;
+            }
+        }
+
+    }
+    .middlesection{
+        display: flex;
+        flex-direction: column;
+        grid-area: middlesection;
+        background-color: #1db4b9;
+    }
+    .rightsection{
+        display: flex;
+        flex-direction: column;
+        grid-area: rightsection;
+        background-color: #b94e1d;
+    }
+    .footer{
+        display: flex;
+        grid-area: footer;
+        background-color: #341db9;
+    }
 }
+
+

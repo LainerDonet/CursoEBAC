@@ -5,4 +5,106 @@ body {
   grid-template-areas: "leftsection middlesection rightsection" "footer footer footer";
   margin: 0;
   padding: 0;
+}
+body .leftsection {
+  display: flex;
+  flex-direction: column;
+  grid-area: leftsection;
+  background-color: #1DB954;
+}
+body .leftsection__homesearch {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+body .leftsection__title {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  justify-content: center;
+}
+body .leftsection__icon {
+  width: 50px;
+}
+body .leftsection .musiclibrary {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+body .leftsection .musiclibrary__icon {
+  width: 50px;
+}
+body .leftsection .musiclibrary__title {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  justify-content: center;
+}
+body .leftsection .staticselect {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+body .leftsection .staticselect__title {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  justify-content: center;
+}
+body .leftsection .staticselect__icon {
+  width: 50px;
+}
+body .leftsection .artistlist {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+body .leftsection .artistlist__title {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  justify-content: center;
+}
+body .leftsection .artistlist__icon {
+  width: 50px;
+}
+body .leftsection .trueartist {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+body .leftsection .trueartist__title {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  justify-content: center;
+}
+body .leftsection .trueartist__icon {
+  width: 50px;
+}
+body .middlesection {
+  display: flex;
+  flex-direction: column;
+  grid-area: middlesection;
+  background-color: #1db4b9;
+}
+body .rightsection {
+  display: flex;
+  flex-direction: column;
+  grid-area: rightsection;
+  background-color: #b94e1d;
+}
+body .footer {
+  display: flex;
+  grid-area: footer;
+  background-color: #341db9;
 }/*# sourceMappingURL=style.css.map */
