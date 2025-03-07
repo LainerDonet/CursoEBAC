@@ -1,0 +1,8 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  grid-template-areas: "leftsection middlesection rightsection" "footer footer footer";
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
