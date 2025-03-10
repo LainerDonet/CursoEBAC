@@ -92,21 +92,41 @@ body .middlesection {
   grid-area: middlesection;
   background-color: #1db4b9;
 }
-body .middlesection__portada {
+body .middlesection__navegation {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
-body .middlesection__portada__icon {
+body .middlesection__navegation__left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+body .middlesection__navegation__left__icon {
   width: 50px;
 }
-body .middlesection__portada__title {
+body .middlesection__navegation__right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+body .middlesection__navegation__right__icon {
+  width: 50px;
+}
+body .middlesection__navegation__right__title {
   font-size: 1rem;
   font-weight: bold;
   font-style: normal;
   color: white;
   justify-content: center;
+}
+body .middlesection__title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+body .middlesection__title__icon {
+  width: 25px;
 }
 body .rightsection {
   display: flex;

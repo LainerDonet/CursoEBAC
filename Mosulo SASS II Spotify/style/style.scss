@@ -93,23 +93,44 @@ body{
         flex-direction: column;
         grid-area: middlesection;
         background-color: #1db4b9;
-        &__portada{
+        &__navegation{
             display: flex;
-            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            &__icon{
-                width: 50px;
+            justify-content: space-between;
+            &__left{
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                &__icon{
+                    width: 50px;
+                }
             }
-            &__title{
-                font-size: 1rem;
-                font-weight: bold;
-                font-style: normal;
-                color: white;
-                justify-content: center;
+            &__right{
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                &__icon{
+                    width: 50px;
+                }
+                &__title{
+                    font-size: 1rem;
+                    font-weight: bold;
+                    font-style: normal;
+                    color: white;
+                    justify-content: center;
+                }
             }
         }
-    }
+        &__title{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            &__icon{
+                width: 25px;
+            }
+        }
+    }  
+    
     .rightsection{
         display: flex;
         flex-direction: column;
