@@ -95,8 +95,14 @@ body{
         background-color: #1db4b9;
         &__navegation{
             display: flex;
-            align-items: center;
+            flex-wrap: wrap;
+            align-items: start;
             justify-content: space-between;
+            background-image: url("../img/wallpapercoldplay.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position-y: 5%;
             &__left{
                 display: flex;
                 align-items: center;
@@ -122,11 +128,21 @@ body{
             }
         }
         &__title{
+            margin-top: 200px;
             display: flex;
-            align-items: center;
+            flex: 1 1 100%;
+            flex-direction: column;
+            align-items: start;
             justify-content: start;
+            color: #fff;
             &__icon{
                 width: 25px;
+            }
+            &_h1{
+                font-size: 4rem;
+                font-weight: bold;
+                font-style: normal;
+                margin: 0;
             }
         }
     }  

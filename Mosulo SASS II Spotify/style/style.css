@@ -94,8 +94,14 @@ body .middlesection {
 }
 body .middlesection__navegation {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: start;
   justify-content: space-between;
+  background-image: url("../img/wallpapercoldplay.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 5%;
 }
 body .middlesection__navegation__left {
   display: flex;
@@ -121,12 +127,22 @@ body .middlesection__navegation__right__title {
   justify-content: center;
 }
 body .middlesection__title {
+  margin-top: 200px;
   display: flex;
-  align-items: center;
+  flex: 1 1 100%;
+  flex-direction: column;
+  align-items: start;
   justify-content: start;
+  color: #fff;
 }
 body .middlesection__title__icon {
   width: 25px;
+}
+body .middlesection__title_h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0;
 }
 body .rightsection {
   display: flex;
