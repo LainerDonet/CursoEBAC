@@ -1,0 +1,47 @@
+/* Layout styles for the overall structure of the project */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $header-bg-color; /* Variable for header background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+    margin-top: 80px; /* Space for fixed header */
+}
+
+footer {
+    background-color: $footer-bg-color; /* Variable for footer background color */
+    color: $footer-text-color; /* Variable for footer text color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.footer-content div {
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-content a {
+    color: $footer-link-color; /* Variable for footer link color */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}

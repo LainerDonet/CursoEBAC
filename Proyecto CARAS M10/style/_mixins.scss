@@ -1,0 +1,24 @@
+// _mixins.scss
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin responsive-font($min-size, $max-size) {
+    font-size: clamp(#{$min-size}, #{$min-size} + 1vw, #{$max-size});
+}
+
+@mixin button-style($bg-color, $text-color) {
+    padding: 10px 20px;
+    color: $text-color;
+    background-color: $bg-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($bg-color, 10%);
+    }
+}

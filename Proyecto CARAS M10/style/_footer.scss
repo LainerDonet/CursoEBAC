@@ -1,0 +1,36 @@
+footer {
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+    padding: $footer-padding;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        flex-wrap: wrap;
+
+        div {
+            margin: $footer-content-margin;
+            text-align: center;
+        }
+
+        a {
+            color: $footer-link-color;
+            text-decoration: none;
+            margin: $footer-link-margin;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        p {
+            margin: $footer-paragraph-margin;
+            font-family: 'Barlow', sans-serif;
+            font-weight: 300;
+        }
+    }
+}
