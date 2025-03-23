@@ -2,7 +2,7 @@
 $primary-color: #ED1E1E; // Rojo oficial de CARAS
 $secondary-color: #333; // Color del footer
 $text-color: #333; // Color del texto principal
-$footer-text-color: #fff; // Color del texto del footer
+$footer-text-color: #fff; // Color del texto del footer  $header-bg-color
 $font-family-serif: 'Playfair Display', serif; // Fuente principal
 $font-family-sans: 'Barlow', sans-serif; // Fuente secundaria
 $font-size-base: 1em; // Tamaño de fuente base
@@ -12,3 +12,11 @@ $padding-base: 20px; // Padding base
 $margin-base: 10px; // Margen base
 $border-radius: 5px; // Radio de borde para elementos redondeados
 $max-width: 300px; // Ancho máximo para componentes específicos
+$header-bg-color: #fff; // Color de fondo del header
+$footer-bg-color: #ED1E1E; // Color de fondo del footer
+$footer-link-color: #fff; // Color de los links del footer
+$footer-link-margin: 0 10px; // Margen de los links del footer
+$footer-content-margin: 10px; // Margen de los elementos del footer
+$footer-paragraph-margin: 10px; // Margen de los párrafos del footer
+$footer-padding: 20px; // Padding del footer
+$footer-background-color: #ED1E1E; // Color de fondo del footer

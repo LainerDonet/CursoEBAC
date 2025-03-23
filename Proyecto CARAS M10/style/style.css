@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* Estilos base del proyecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  color: #333;
+  position: absolute;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  color: #ED1E1E;
+}
+
+p {
+  font-size: 1em;
+  color: #333;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+}
+
+/* Layout styles for the overall structure of the project */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; /* Variable for header background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  padding: 20px;
+  margin-top: 80px; /* Space for fixed header */
+}
+
+footer {
+  background-color: #ED1E1E; /* Variable for footer background color */
+  color: #fff; /* Variable for footer text color */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.footer-content div {
+  margin: 10px;
+  text-align: center;
+}
+
+.footer-content a {
+  color: #fff; /* Variable for footer link color */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/* Este archivo contiene estilos para componentes específicos de la interfaz, como formularios, botones y otros elementos reutilizables. */
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.subscription-form label {
+  font-size: 1.2em;
+}
+.subscription-form input {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+.subscription-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #ED1E1E; /* Variable para el color rojo oficial */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.subscription-form button:hover {
+  background-color: #c81010; /* Tono más oscuro del rojo oficial */
+}
+
+.featured .benefits {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.featured .benefit {
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+.featured .benefit img {
+  width: 100%;
+  border-radius: 10px;
+}
+.featured .benefit p {
+  margin-top: 10px;
+  font-size: 1.1em;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+.testimonials .testimonial-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonials .testimonial {
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+.testimonials .testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.testimonials .testimonial p {
+  font-size: 1.1em;
+  margin: 10px 0;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+.testimonials .testimonial h3 {
+  font-size: 1em;
+  color: #555;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+footer {
+  background-color: #ED1E1E;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  flex-wrap: wrap;
+}
+footer .footer-content div {
+  margin: 10px;
+  text-align: center;
+}
+footer .footer-content a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+footer .footer-content a:hover {
+  text-decoration: underline;
+}
+footer .footer-content p {
+  margin: 10px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=style.css.map */

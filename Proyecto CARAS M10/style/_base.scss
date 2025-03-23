@@ -1,4 +1,5 @@
 /* Estilos base del proyecto */
+@use './variables' as vars; // Importamos el archivo de variables
 
 * {
     margin: 0;
@@ -8,19 +9,19 @@
 
 body {
     font-family: 'Playfair Display', serif;
-    color: $text-color; // Variable para el color del texto
+    color: vars.$text-color; // Variable para el color del texto
     position: absolute;
     width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
-    color: $primary-color; // Variable para el color primario
+    color: vars.$primary-color; // Variable para el color primario
 }
 
 p {
     font-size: 1em;
-    color: $secondary-color; // Variable para el color secundario
+    color: vars.$secondary-color; // Variable para el color secundario
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
 }

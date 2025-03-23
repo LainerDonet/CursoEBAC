@@ -1,4 +1,5 @@
 /* Este archivo contiene estilos para componentes específicos de la interfaz, como formularios, botones y otros elementos reutilizables. */
+@use './variables' as vars; // Importamos el archivo de variables
 
 .subscription-form {
     display: flex;
@@ -24,13 +25,13 @@
         padding: 10px 20px;
         font-size: 1em;
         color: #fff;
-        background-color: $primary-color; /* Variable para el color rojo oficial */
+        background-color: vars.$primary-color; /* Variable para el color rojo oficial */
         border: none;
         border-radius: 5px;
         cursor: pointer;
 
         &:hover {
-            background-color: darken($primary-color, 10%); /* Tono más oscuro del rojo oficial */
+            background-color: darken(vars.$primary-color, 10%); /* Tono más oscuro del rojo oficial */
         }
     }
 }

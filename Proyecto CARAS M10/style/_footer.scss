@@ -1,7 +1,9 @@
+@use './variables' as vars; // Importamos el archivo de variables
+
 footer {
-    background-color: $footer-background-color;
-    color: $footer-text-color;
-    padding: $footer-padding;
+    background-color: vars.$footer-background-color;
+    color: vars.$footer-text-color;
+    padding: vars.$footer-padding;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,14 +15,14 @@ footer {
         flex-wrap: wrap;
 
         div {
-            margin: $footer-content-margin;
+            margin: vars.$footer-content-margin;
             text-align: center;
         }
 
         a {
-            color: $footer-link-color;
+            color: vars.$footer-link-color;
             text-decoration: none;
-            margin: $footer-link-margin;
+            margin: vars.$footer-link-margin;
 
             &:hover {
                 text-decoration: underline;
@@ -28,7 +30,7 @@ footer {
         }
 
         p {
-            margin: $footer-paragraph-margin;
+            margin: vars.$footer-paragraph-margin;
             font-family: 'Barlow', sans-serif;
             font-weight: 300;
         }

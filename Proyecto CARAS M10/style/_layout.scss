@@ -1,10 +1,11 @@
 /* Layout styles for the overall structure of the project */
+@use './variables' as vars; // Import the variables file
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $header-bg-color; /* Variable for header background color */
+    background-color: vars.$header-bg-color; /* Variable for header background color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -16,8 +17,8 @@ main {
 }
 
 footer {
-    background-color: $footer-bg-color; /* Variable for footer background color */
-    color: $footer-text-color; /* Variable for footer text color */
+    background-color: vars.$footer-bg-color; /* Variable for footer background color */
+    color: vars.$footer-text-color; /* Variable for footer text color */
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -37,7 +38,7 @@ footer {
 }
 
 .footer-content a {
-    color: $footer-link-color; /* Variable for footer link color */
+    color: vars.$footer-link-color; /* Variable for footer link color */
     text-decoration: none;
     margin: 0 10px;
 }
