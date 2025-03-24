@@ -9,11 +9,17 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
+    img{
+        display: inline-block;
+        width: 150px;
+        margin:10px 20px;
+    }
 }
 
 main {
     padding: 20px;
     margin-top: 80px; /* Space for fixed header */
+    text-align: center;
 }
 
 footer {

@@ -31,7 +31,7 @@
         cursor: pointer;
 
         &:hover {
-            background-color: darken(vars.$primary-color, 10%); /* Tono más oscuro del rojo oficial */
+            background-color: vars.$primary-color; /* Tono más oscuro del rojo oficial */
         }
     }
 }

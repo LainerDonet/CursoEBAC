@@ -18,6 +18,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #ED1E1E;
 }
 
+.header_title, .header_subtitle {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+
 p {
   font-size: 1em;
   color: #333;
@@ -30,19 +35,25 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff; /* Variable for header background color */
+  background-color: #ED1E1E; /* Variable for header background color */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
+}
+header img {
+  display: inline-block;
+  width: 150px;
+  margin: 10px 20px;
 }
 
 main {
   padding: 20px;
   margin-top: 80px; /* Space for fixed header */
+  text-align: center;
 }
 
 footer {
-  background-color: #ED1E1E; /* Variable for footer background color */
+  background-color: #333; /* Variable for footer background color */
   color: #fff; /* Variable for footer text color */
   padding: 20px 0;
   display: flex;
@@ -101,7 +112,7 @@ footer {
   cursor: pointer;
 }
 .subscription-form button:hover {
-  background-color: #c81010; /* Tono más oscuro del rojo oficial */
+  background-color: #ED1E1E; /* Tono más oscuro del rojo oficial */
 }
 
 .featured .benefits {

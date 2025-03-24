@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
     color: vars.$primary-color; // Variable para el color primario
 }
+.header_title, .header_subtitle {
+    font-family: 'Playfair Display', serif;
+    color: #fff; // Variable para el color primario
+}
 
 p {
     font-size: 1em;
