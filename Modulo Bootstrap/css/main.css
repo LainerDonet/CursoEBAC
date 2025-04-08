@@ -2,10 +2,21 @@
     background-image: url(../img/bg-header.jpg);
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .img-logo{
     width: 40px;
-   
+}
+
+.linear-white::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
 }
 
 .vh-50{
@@ -40,6 +51,7 @@ card-effect{
     background-image: url(../img/bg-clients.jpeg);
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .comments-img{
     --tamano: 80px;
@@ -52,4 +64,20 @@ card-effect{
 }
 .transform-turn{
     transform: rotate(0.5turn);
+}
+.media-object-img{
+    --tamano:65px;
+    width: var(--tamano);
+    height: var(--tamano);
+    margin-right: 15px;
+}
+
+.carousel-weston-middle{
+    top: 35%;
+}
+
+@media screen and (max-width: 375px){
+    .vh-50{
+        height: 40vmax;
+    }
 }
