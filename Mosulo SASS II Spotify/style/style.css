@@ -1,7 +1,7 @@
 body {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 3fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
   grid-template-areas: "leftsection middlesection rightsection" "footer footer footer";
   margin: 0;
   padding: 0;
@@ -195,10 +195,19 @@ body .rightsection__element__title {
   color: white;
   justify-content: center;
 }
-body .footer {
+body .playcontrol {
   display: flex;
   grid-area: footer;
   background-color: #341db9;
+  height: fit-content;
+}
+body .playcontrol__left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+body .playcontrol__left__img {
+  width: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
