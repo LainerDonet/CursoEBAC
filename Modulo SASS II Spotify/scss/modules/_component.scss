@@ -1,0 +1,7 @@
+@mixin sidebar-flex-item {
+  display: flex;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 15px;
+  cursor: pointer;
+}
