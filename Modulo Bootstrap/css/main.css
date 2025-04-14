@@ -1,11 +1,13 @@
 .header{
-    background-image: url(../img/bg-header.jpg);
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('../img/bg-ghibli.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
 }
 .img-logo{
-    width: 40px;
+    width: 100px;
 }
 
 .linear-white::after{
@@ -48,7 +50,9 @@ card-effect{
     transform: scale(0.9);
 }
 .comments{
-    background-image: url(../img/bg-clients.jpeg);
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(../img/bg-author.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
