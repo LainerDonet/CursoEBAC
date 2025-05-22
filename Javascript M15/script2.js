@@ -24,8 +24,23 @@ const personas = {
 }
 
 for (const nombre in personas) {
-    console.log(personas[nombre]);
+    console.log(`Esta de la propiedadses: ${nombre}}`);
 }
+
+/*
+    1. Contar elementos iguales en un arreglo de valores numericos.
+*/
+
+const numeros = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1];
+const contador = {};
+for (const numero of numeros) {
+    if (contador[numero]) {
+        contador[numero]++;
+    } else {
+        contador[numero] = 1;
+    }
+}
+console.log("Contador de elementos iguales:", contador);
 
 /*
     1. Buscar un usuario por su nombre en un array de objetos con las siguientes propiedades:
@@ -145,7 +160,9 @@ function findAvailable(products) {
 
 // Ejemplo de uso:
 const availableProducts = findAvailable(products);
-console.log(availableProducts); 
+const productNames = availableProducts.map(product => product.name);
+console.log("Productos disponibles:", productNames);
+
 
 /*
     1. Crear una funcion que reciba un array de precios y devuelva el total de la compra
