@@ -199,6 +199,7 @@ body .playcontrol {
   display: flex;
   grid-area: footer;
   background-color: #341db9;
+  height: -moz-fit-content;
   height: fit-content;
 }
 body .playcontrol__left {
@@ -208,6 +209,4 @@ body .playcontrol__left {
 }
 body .playcontrol__left__img {
   width: 50px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
