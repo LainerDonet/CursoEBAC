@@ -54,7 +54,6 @@ document.addEventListener("click", function(event) {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    // ...código existente...
 
     // Mostrar el carrito al hacer click en el icono del header
     const cartIcon = document.getElementById('header__icon-cart');
