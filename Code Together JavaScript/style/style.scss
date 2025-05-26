@@ -120,5 +120,16 @@ $color-blanco:#fff;
         }
         
     }
+    &__btn {
+        width: 100%;
+        background-color: $color-gris;
+        color: $color-blanco;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+    
     
 }
