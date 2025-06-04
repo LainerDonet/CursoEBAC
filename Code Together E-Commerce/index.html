@@ -10,7 +10,10 @@
 <body>
     <header class="header">
         <div class="header__logo">
-            <img src="img/Logo_Rolex.png" alt="Logo de rolex" class="header__logo-img">
+            <div class="header__logo-div">
+                <img src="img/Logo-Rolex.png" alt="Logo de rolex" class="header__logo-img">
+            </div>
+            
             <nav class="header__nav">
                 <ul class="header__nav-list">
                     <li><a href="#home" class="header__nav-link">Inicio</a></li>
@@ -24,7 +27,64 @@
             <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
             <span class="header__cart-count">0</span>
         </div>
-        <script src="https://kit.fontawesome.com/eb138cf700.js" crossorigin="anonymous"></script>
     </header>
+    <main>
+        <section class="carousel">
+            <div class="carousel__container">
+                <div class="carousel__slide carousel__slide--active">
+                    <img src="img/slide-1.png" alt="Imagen 1" class="carousel__image">
+                </div>
+                <div class="carousel__slide">
+                    <img src="img/slide-2.png" alt="Imagen 2" class="carousel__image">
+                </div>
+                <div class="carousel__slide">
+                    <img src="img/slide-3.png" alt="Imagen 3" class="carousel__image">
+                </div>
+                    <!-- Agrega más slides si lo deseas -->
+                    <button class="carousel__btn carousel__btn--prev">&#10094;</button>
+                    <button class="carousel__btn carousel__btn--next">&#10095;</button>
+                    <div class="carousel__dots">
+                    <span class="carousel__dot carousel__dot--active"></span>
+                    <span class="carousel__dot"></span>
+                    <span class="carousel__dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <h2 class="products__title">Nuestros Productos</h2>
+            <div class="products__grid">
+                <article class="product">
+                    <img src="img/product1.jpg" alt="Producto 1" class="product__image">
+                    <h3 class="product__name">Reloj Rolex Submariner</h3>
+                    <p class="product__price">$8,000.00</p>
+                    <button class="product__btn">Agregar al Carrito</button>
+                </article>
+                <article class="product">
+                    <img src="img/product2.jpg" alt="Producto 2" class="product__image">
+                    <h3 class="product__name">Reloj Rolex Daytona</h3>
+                    <p class="product__price">$12,000.00</p>
+                    <button class="product__btn">Agregar al Carrito</button>
+                </article>
+                <!-- Agrega más productos aquí -->
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="about__title">Sobre Nosotros</h2>
+            <p class="about__description">Somos una tienda dedicada a ofrecer los mejores relojes de lujo del mundo.</p>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="contact__title">Contacto</h2>
+            <form class="contact__form">
+                <input type="text" placeholder="Nombre" required class="contact__input">
+                <input type="email" placeholder="Correo Electrónico" required class="contact__input">
+                <textarea placeholder="Mensaje" required class="contact__textarea"></textarea>
+                <button type="submit" class="contact__btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/eb138cf700.js" crossorigin="anonymous"></script>
 </body>
 </html>
