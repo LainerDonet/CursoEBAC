@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -20,7 +21,7 @@
         <section class="newsletter">
             <h1>Suscríbete a nuestro Newsletter</h1>
             <h2>Recibe las últimas noticias y actualizaciones directamente en tu bandeja de entrada</h2>
-            <form class="subscription-form">
+            <form class="subscription-form" id="subscriptionForm">
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" required>
                 
@@ -29,6 +30,7 @@
                 
                 <button type="submit">Suscribirse</button>
             </form>
+            <span class="show-error"></span>
         </section>
         <section class="featured">
             <h2>Beneficios de Suscribirse</h2>
