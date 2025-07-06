@@ -185,6 +185,14 @@ footer {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
 }
+.input-error {
+    border: 2px solid red;
+}
+.show-error {
+    color: red;
+    display: block;
+    margin-top: 10px;
+}
 
 /* Responsividad */
 @media screen and (max-width: 768px) {
