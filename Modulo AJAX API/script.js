@@ -4,9 +4,10 @@ const serieDetail = document.getElementById('serie-detail');
 // Cargar series populares (usamos búsqueda por palabra clave como ejemplo)
 async function cargarSeries() {
     try {
-        const res = await axios.get('https://api.tvmaze.com/shows?page=1');
+        const res = await axios.get('https://api.tvmaze.com/shows');
         mostrarSeries(res.data.slice(0, 12)); // Muestra solo 12 series
     } catch (err) {
+        console.error("Error al cargar series:", err);
         seriesList.innerHTML = "<p>Error al cargar series.</p>";
     }
 }
