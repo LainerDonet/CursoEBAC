@@ -1,0 +1,12 @@
+{
+    "name": "node-basic",
+    "version": "1.0.0",
+    "description": "A simple Node.js application to demonstrate basic functionality",
+    "main": "usarModulo.js",
+    "scripts": {
+        "start": "node usarModulo.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Lainer Felipe Donet Vasconcelos",
+    "license": "ISC"
+}
